@@ -1,0 +1,16 @@
+// Top-level gradle script.
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:1.5.0'//in F:/android studio/gradle/m2repository/com/android/tools/uild/gradle
+    }
+}
+
+allprojects {
+    repositories {
+        mavenCentral()
+    }
+}
